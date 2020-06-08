@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Instantly create a start-up or manage and grow an existing business, all-in-one Realtime callobrative solution complete with many automation's and a customizable website.">
+    <meta name="keywords" content="CoCreate, app landing, responsive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoCreate - Build your business in minutes.</title>
+    
+    <!-- CoCreate UI -->
+    <!--<link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />-->
+    <link rel="stylesheet" href="./css/CoCreateUI.min.css" type="text/css" />
+   
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/99ba925095.js"></script> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+    <style type="text/css">
+        .overlay-scroll{
+            overflow: hidden !important;
+            position: relative;
+            overflow-anchor: none;
+            -ms-overflow-style: none;
+            touch-action: auto;
+            -ms-touch-action: auto;
+        }
+        .overlay-scroll__track-x {
+          display: none;
+          opacity: 0;
+          transition: background-color .2s linear, opacity .2s linear;
+          -webkit-transition: background-color .2s linear, opacity .2s linear;
+          height: 15px;
+            bottom: 0px;
+          position: absolute;
+        }
+        .overlay-scroll__track-y {
+          display: none;
+          opacity: 0;
+          transition: background-color .2s linear, opacity .2s linear;
+          -webkit-transition: background-color .2s linear, opacity .2s linear;
+          width: 15px;
+          right: 0;
+          position: absolute;
+        }
+        .overlay-scroll--active-x > .overlay-scroll__track-x,
+        .overlay-scroll--active-y > .overlay-scroll__track-y {
+          display: block;
+          background-color: transparent;
+        }
+        .overlay-scroll:hover > .overlay-scroll__track-x,
+        .overlay-scroll:hover > .overlay-scroll__track-y,
+        .overlay-scroll--focus > .overlay-scroll__track-x,
+        .overlay-scroll--focus > .overlay-scroll__track-y,
+        .overlay-scroll--scrolling-x > .overlay-scroll__track-x,
+        .overlay-scroll--scrolling-y > .overlay-scroll__track-y {
+          opacity: 0.6;
+        }
+        
+        .overlay-scroll .overlay-scroll__track-x:hover,
+        .overlay-scroll .overlay-scroll__track-y:hover,
+        .overlay-scroll .overlay-scroll__track-x:focus,
+        .overlay-scroll .overlay-scroll__track-y:focus,
+        .overlay-scroll .overlay-scroll__track-x.overlay-scroll--clicking,
+        .overlay-scroll .overlay-scroll__track-y.overlay-scroll--clicking {
+          background-color: #eee;
+          opacity: 0.9;
+        }
+        .overlay-scroll__thumb-x {
+          background-color: #aaa;
+          border-radius: 6px;
+          transition: background-color .2s linear, height .2s ease-in-out;
+          -webkit-transition: background-color .2s linear, height .2s ease-in-out;
+          height: 6px;
+          bottom: 2px;
+          position: absolute;
+        }
+        
+        .overlay-scroll__thumb-y {
+          background-color: #aaa;
+          border-radius: 6px;
+          transition: background-color .2s linear, width .2s ease-in-out;
+          -webkit-transition: background-color .2s linear, width .2s ease-in-out;
+          width: 6px;
+          right: 2px;
+          position: absolute;
+        }
+        .overlay-scroll__track-x:hover > .overlay-scroll__thumb-x,
+        .overlay-scroll__track-x:focus > .overlay-scroll__thumb-x,
+        .overlay-scroll__track-x.overlay-scroll--clicking .overlay-scroll__thumb-x {
+          background-color: #999;
+          height: 11px;
+        }
+        
+        .overlay-scroll__track-y:hover > .overlay-scroll__thumb-y,
+        .overlay-scroll__track-y:focus > .overlay-scroll__thumb-y,
+        .overlay-scroll__track-y.overlay-scroll--clicking .overlay-scroll__thumb-y {
+          background-color: #999;
+          width: 11px;
+        }
+        
+        .overlay-scroll__thumb-x:focus{
+          outline: none;
+        }
+        .overlay-scroll__thumb-y:focus{
+          outline: none;
+        }
+    </style>
+  </head>
+  <body >
+    <div class="overlay-scroll" data-overlay-scroll_type="scrollY" style="height: 100%">
+      <div id="type_example" class="display-flex flex-wrap-wrap">
+        <!-- Example:  default scrolling -->
+        <div style="margin: 10px">
+          <h3>default:  XY-direction ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  XY-direction scrolling -->
+        <div style="margin: 10px">
+          <h3>XY-direction ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_type="scrollX,scrollY">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  X-direction scrolling -->
+        <div style="margin: 10px">
+          <h3>X-direction ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_type="scrollX" data-overlay-scroll_position="bottom,right">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  Y-direction scrolling -->
+        <div style="margin: 10px">
+          <h3>Y-direction ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_type="scrollY" data-overlay-scroll_position="bottom,right">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+      </div>    
+  
+      
+      <div id="position_example" class="display-flex flex-wrap-wrap">
+        <!-- Example:  default scroller -->
+        <div style="margin: 10px">
+          <h3>default:  Bottom and Right ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_position="bottom,right">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  Top and Left scroller -->
+        <div style="margin: 10px">
+          <h3>Top and Left ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_position="top,left">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  Top ScrollBar -->
+        <div style="margin: 10px">
+          <h3>Top and Right ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_position="top">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  Left ScrollBar -->
+        <div style="margin: 10px">
+          <h3>Bottom and Left ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_position="left">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+      </div> 
+      
+      
+      <div id="other_example" class="display-flex flex-wrap-wrap">
+        <!-- Example: border scroller -->
+        <div style="margin: 10px">
+          <h3>Bordered ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" style="border: 10px solid red">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  margin scroller -->
+        <div style="margin: 10px">
+          <h3>Margined ScrollBar</h3>
+          <div class="overlay-scroll width-300px height-300px" style="margin: 10px">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  nested scrollbar -->
+        <div style="margin: 10px">
+          <h3>Nested ScrollBar</h3>
+          <div class="parent_node overlay-scroll width-300px height-300px">
+            <div class="overlay-scroll width-200px height-200px">
+              <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+            </div>
+            <div class="overlay-scroll width-200px height-200px">
+              <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+            </div>
+          </div>  
+        </div>
+      </div> 
+      
+      
+      <div id="attribute_example" class="display-flex flex-wrap-wrap">
+        <!-- Example:  scroll speed -->
+        <div style="margin: 10px">
+          <h3>Scroll Speed</h3>
+          <div class="overlay-scroll width-300px height-300px" data-overlay-scroll_speed="0.2">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        
+      </div>   
+    </div>
+    
+    
+    
+  </body>
+  <script src="./js/CoCreate-overlay-scroll.js"></script>
+  </html>
