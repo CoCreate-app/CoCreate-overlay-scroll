@@ -16,11 +16,13 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="CoCreate-overlay-scroll.css">
+
   </head>
   
   <body>
     <div class="overlay-scroll" data-overlay-scroll_type="scrollY" style="height: 100%">
-      <div id="type_example" class="display:flex flex-wrap-wrap">
+      <div id="type_example" class="display:flex flex-wrap:wrap">
         <!-- Example:  default scrolling -->
         <div style="margin: 10px">
           <h3>default:  XY-direction ScrollBar</h3>
@@ -52,7 +54,7 @@
       </div>    
   
       
-      <div id="position_example" class="display:flex flex-wrap-wrap">
+      <div id="position_example" class="display:flex flex-wrap:wrap">
         <!-- Example:  default scroller -->
         <div style="margin: 10px">
           <h3>default:  Bottom and Right ScrollBar</h3>
@@ -84,7 +86,7 @@
       </div> 
       
       
-      <div id="other_example" class="display:flex flex-wrap-wrap">
+      <div id="other_example" class="display:flex flex-wrap:wrap">
         <!-- Example: border scroller -->
         <div style="margin: 10px">
           <h3>Bordered ScrollBar</h3>
@@ -114,7 +116,7 @@
       </div> 
       
       
-      <div id="attribute_example" class="display:flex flex-wrap-wrap">
+      <div id="attribute_example" class="display:flex flex-wrap:wrap">
         <!-- Example:  scroll speed -->
         <div style="margin: 10px">
           <h3>Scroll Speed</h3>
@@ -125,8 +127,16 @@
         
       </div>   
     </div>
-    
+  
+    <script>
+      var config = {
+        apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+        securityKey: 'f26baf68-e3a9-45fc-effe-502e47116265',
+        organization_Id: '5de0387b12e200ea63204d6c'
+      }
+    </script>
   <script src="CoCreate-overlay-scroll.js"></script>
+  <script src="https://server.cocreate.app/js/CoCreate.min.js"></script>
     
   </body>
 </html>
