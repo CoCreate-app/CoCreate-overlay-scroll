@@ -1075,7 +1075,7 @@ var CoCreateOverlayScroll = (function() {
                 scrollVisible = scrollVisible.toLowerCase();
                 options.scrollbars = {
                     visibility: scrollVisible == 'hide' ? 'hidden' : 'visible',
-                    autoHide: scrollVisible == 'autohide' ? 'leave' : 'never',
+                    autoHide: scrollVisible == 'auto' ? 'leave' : 'never',
                     autoHideDelay : 100,
                 };
             }
