@@ -16,7 +16,7 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	  <link rel="stylesheet" href="../dist/CoCreate-overlay-scroll.min.css">
+	  <link rel="stylesheet" href="CoCreate-overlay-scroll.css">
 
   </head>
   
@@ -43,14 +43,39 @@
             <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
           </div>  
         </div>
-      </div>    
-  
+      </div>  
       
       <div id="position_example" style="display:flex;flex-wrap:wrap">
+        <!-- Example:  default scrolling -->
+        <div style="margin: 10px">
+          <h3>Bottom, Left</h3>
+          <div class="co_overlay-scroll" data-overlay-scroll_pos="left" style="width:300px;height:300px" >
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  X-direction scrolling -->
+        <div style="margin: 10px">
+          <h3>Top, Right</h3>
+          <div class="co_overlay-scroll" data-overlay-scroll_pos="top" style="width:300px;height:300px" >
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+        <!-- Example:  Y-direction scrolling -->
+        <div style="margin: 10px">
+          <h3>Top, Left</h3>
+          <div class="co_overlay-scroll" data-overlay-scroll_pos="top;left" style="width:300px;height:300px">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
+          </div>  
+        </div>
+      </div>  
+        
+  
+      
+      <div id="visible_example" style="display:flex;flex-wrap:wrap">
         <!-- Example:  default scroller -->
         <div style="margin: 10px">
           <h3>Dark Mode</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_theme="dark" style="width:300px;height:300px" >
+          <div class="co_overlay-scroll dark-mode" style="width:300px;height:300px" >
             <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
           </div>  
         </div>
@@ -59,12 +84,12 @@
           <h3>Hidden ScrollBar</h3>
           <div class="co_overlay-scroll" data-overlay-scroll_visible="hide" style="width:300px;height:300px" >
             <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
+          </div>
         </div>
         <!-- Example:  Top ScrollBar -->
         <div style="margin: 10px">
           <h3>Auto Hidden ScrollBar</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_visible="autohide" style="width:300px;height:300px">
+          <div class="co_overlay-scroll" data-overlay-scroll_visible="auto" style="width:300px;height:300px">
             <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
           </div>  
         </div>
@@ -78,7 +103,7 @@
       }
     </script>
     <script src="https://server.cocreate.app/js/CoCreate.min.js"></script> -->
-    <script src="../dist/CoCreate-overlay-scroll.min.js"></script>
+    <script src="CoCreate-overlay-scroll.js"></script>
     
   </body>
 </html>
