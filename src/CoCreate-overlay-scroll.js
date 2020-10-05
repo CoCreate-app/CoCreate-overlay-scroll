@@ -759,7 +759,7 @@ var CoCreateOverlayScroll = (function() {
                 y: ['right', 'right left']
             },
             scrollbars: {
-                visibility: ['auto', hv],
+                visibility: ['visible', hv],
                 autoHide: ['never', sv],
                 autoHideDelay: [800, 'number'],
                 dragScrolling: [true, 'boolean'],
@@ -956,7 +956,6 @@ var CoCreateOverlayScroll = (function() {
         var _strKeyDownEvent = 'keydown';
         var _strKeyUpEvent = 'keyup';
         var _strSelectStartEvent = 'selectstart';
-        var _strTransitionEndEvent = 'transitionend webkitTransitionEnd oTransitionEnd';
 
         var _cassNamesPrefix = 'co_';
         var _classNameHTMLElement = _cassNamesPrefix + 'html';
@@ -985,8 +984,6 @@ var CoCreateOverlayScroll = (function() {
             _classNameScrollbarUnusable,
             _classNameScrollbarAutoHidden,
             _classNameDragging].join(' ');
-
-        var _viewportAttrsFromTarget = ['tabindex'];
 
         var _currentOptions;
         var _currentPreparedOptions;
@@ -1074,7 +1071,7 @@ var CoCreateOverlayScroll = (function() {
             if(typeof scrollVisible !== 'undefined'){
                 scrollVisible = scrollVisible.toLowerCase();
                 options.scrollbars = {
-                    visibility: scrollVisible == 'hide' ? 'hidden' : 'visible',
+                    visibility: scrollVisible == 'hide' ? 'hidden' : 'visable',
                     autoHide: scrollVisible == 'auto' ? 'leave' : 'never',
                     autoHideDelay : 100,
                 };
