@@ -1,554 +1,120 @@
-html.co_html,
-html.co_html > .co_host {
-    display: block;
-    overflow: hidden;
-    box-sizing: border-box;
-    height: 100% !important;
-    width: 100% !important;
-    min-width: 100% !important;
-    min-height: 100% !important;
-    margin: 0 !important;
-    position: absolute !important;
-}
-html.co_html > .co_host > .co_wrapper {
-    position: absolute;
-}
-body.co_dragging,
-body.co_dragging * {
-    cursor: default;
-}
-.co_host,
-.co_host-textarea {
-    position: relative;
-    overflow: visible !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
-            align-items: flex-start;
-}
-.co_host-flexbox {
-    overflow: hidden !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-.co_host-flexbox > .co_size-auto-observer {
-    height: inherit !important;
-}
-.co_host-flexbox > .co_content-glue {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-}
-.co_host-flexbox > .co_size-auto-observer,
-.co_host-flexbox > .co_content-glue {
-    min-height: 0;
-    min-width: 0;
-    -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-}
-#os-dummy-scrollbar-size {
-    position: fixed;
-    opacity: 0;
-    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
-    visibility: hidden;
-    overflow: scroll;
-    height: 500px;
-    width: 500px;
-}
-#os-dummy-scrollbar-size > div {
-    width: 200%;
-    height: 200%; 
-    margin: 10px 0;
-}
-/* fix restricted measuring */
-#os-dummy-scrollbar-size:before,
-#os-dummy-scrollbar-size:after,
-.co_content:before,
-.co_content:after {
-    content: '';
-    display: table;
-    width: 0.01px;
-    height: 0.01px;
-    line-height: 0;
-    font-size: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    visibility: hidden;
-}
-#os-dummy-scrollbar-size,
-.co_viewport {
-    -ms-overflow-style: scrollbar !important;
-}
-.co_overlay-scroll #os-dummy-scrollbar-size,
-.co_overlay-scroll .co_viewport {
-    scrollbar-width: none !important;
-}
-.co_overlay-scroll #os-dummy-scrollbar-size::-webkit-scrollbar,
-.co_overlay-scroll .co_viewport::-webkit-scrollbar,
-.co_overlay-scroll #os-dummy-scrollbar-size::-webkit-scrollbar-corner,
-.co_overlay-scroll .co_viewport::-webkit-scrollbar-corner {
-    display: none !important;
-    width: 0px !important;
-    height: 0px !important;
-    visibility: hidden !important;
-    background: transparent !important;
-}
-.co_content-glue {
-    box-sizing: inherit;
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
-    pointer-events: none;
-}
-.co_wrapper {
-    box-sizing: inherit;
-    direction: inherit;
-    position: absolute;
-    overflow: visible;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: auto !important;
-    height: auto !important;
-}
-.co_host-overflow > .co_wrapper {
-    overflow: hidden;
-}
-.co_viewport {
-    direction: inherit !important;
-    box-sizing: inherit !important;
-    resize: none !important;
-    outline: none !important;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
-}
-.co_content-arrange {
-    position: absolute;
-    z-index: -1;
-    min-height: 1px;
-    min-width: 1px;
-    pointer-events: none;
-}
-.co_content {
-    direction: inherit;
-    box-sizing: border-box !important;
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 100%;
-    height: 100%;
-    width: 100%;
-    visibility: visible;
-}
-.co_content > .co_textarea {
-    box-sizing: border-box !important;
-    direction: inherit !important;
-    background: transparent !important;
-    outline: 0px none transparent !important;
-    overflow: hidden !important;
-    position: absolute !important;
-    display: block !important;
-    top: 0 !important;
-    left: 0 !important;
-    margin: 0 !important;
-    border-radius: 0px !important;
-    float: none !important;
-    -webkit-filter: none !important;
-            filter: none !important;
-    border: none !important;
-    resize: none !important;
-    -webkit-transform: none !important;
-            transform: none !important;
-    max-width: none !important;
-    max-height: none !important;
-    box-shadow: none !important;
-    -webkit-perspective: none !important;
-            perspective: none !important;
-    opacity: 1 !important;
-    z-index: 1 !important;
-    clip: auto !important;
-    vertical-align: baseline !important;
-    padding: 0px;
-}
-.co_content > .co_textarea-cover {
-    z-index: -1;
-    pointer-events: none;
-}
-.co_content > .co_textarea[wrap='off'] {
-    white-space: pre !important;
-    margin: 0px !important;
-}
-.co_text-inherit {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    font-style: inherit;
-    font-variant: inherit;
-    text-transform: inherit;
-    text-decoration: inherit;
-    text-indent: inherit;
-    text-align: inherit;
-    text-shadow: inherit;
-    text-overflow: inherit;
-    letter-spacing: inherit;
-    word-spacing: inherit;
-    line-height: inherit;
-    unicode-bidi: inherit;
-    direction: inherit;
-    color: inherit;
-    cursor: text;
-}
-.co_resize-observer,
-.co_resize-observer-host {
-    box-sizing: inherit;
-    display: block;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    pointer-events: none;
-    z-index: -1;
-}
-.co_resize-observer-host {
-    padding: inherit;
-    border: inherit;
-    border-color: transparent;
-    border-style: solid;
-    box-sizing: border-box;
-}
-.co_resize-observer-host.observed {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.co_resize-observer-host > .co_resize-observer,
-.co_resize-observer-host.observed > .co_resize-observer {
-    height: 200%;
-    width: 200%;
-    padding: inherit;
-    border: inherit;
-    margin: 0;
-    display: block;
-    box-sizing: content-box;
-}
-.co_resize-observer-host.observed > .co_resize-observer,
-.co_resize-observer-host.observed > .co_resize-observer:before {
-    display: flex;
-    position: relative;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
-    box-sizing: border-box;
-}
-.co_resize-observer-host.observed > .co_resize-observer:before {
-    content: '';
-    box-sizing: content-box;
-    padding: inherit;
-    border: inherit;
-    margin: 0;
-}
-.co_size-auto-observer {
-    box-sizing: inherit !important;
-    height: 100%;
-    width: inherit;
-    max-width: 1px;
-    position: relative;
-    float: left;
-    max-height: 1px;
-    overflow: hidden;
-    z-index: -1;
-    padding: 0;
-    margin: 0;
-    pointer-events: none;
-    -webkit-box-flex: inherit;
-        -ms-flex-positive: inherit;
-            flex-grow: inherit;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    -ms-flex-preferred-size: 0;
-        flex-basis: 0;
-}
-.co_size-auto-observer > .co_resize-observer {
-    width: 1000%;
-    height: 1000%;
-    min-height: 1px;
-    min-width: 1px;
-}
-.co_resize-observer-item {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -1;
-    opacity: 0;
-    direction: ltr !important;
-    -webkit-box-flex: 0 !important;
-    -ms-flex: none !important;
-    flex: none !important;
-}
-.co_resize-observer-item-final {
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-transition: none !important;
-    transition: none !important;
-    -webkit-box-flex: 0 !important;
-    -ms-flex: none !important;
-    flex: none !important;
-}
-.co_resize-observer {
-    -webkit-animation-duration: 0.001s;
-    animation-duration: 0.001s;
-    -webkit-animation-name: os-resize-observer-dummy-animation;
-    animation-name: os-resize-observer-dummy-animation;
-}
-object.co_resize-observer {
-    box-sizing: border-box !important;
-}
-@-webkit-keyframes os-resize-observer-dummy-animation {
-    from {
-        z-index: 0;
-    }
-    to {
-        z-index: -1;
-    }
-}
-@keyframes os-resize-observer-dummy-animation {
-    from {
-        z-index: 0;
-    }
-    to {
-        z-index: -1;
-    }
+.co_scrollbar-disable-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/*
-CUSTOM SCROLLBARS AND CORNER CORE:
-*/
+.co_prevented {
+  -webkit-overflow-scrolling: touch;
+}
+.co_prevented > .co_scrollbar {
+  display: none;
+}
 
-.co_host-transition > .co_scrollbar,
-.co_host-transition > .co_scrollbar-corner {
-    -webkit-transition: opacity 0.3s, visibility 0.3s, top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-    transition: opacity 0.3s, visibility 0.3s, top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-}
-html.co_html > .co_host > .co_scrollbar {
-    position: absolute;
-    z-index: 999999;
-}
-.co_scrollbar,
-.co_scrollbar-corner {
-    position: absolute;
-    opacity: 1;
-    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
-    z-index: 1;
-}
-.co_scrollbar-corner {
-    bottom: 0;
-    right: 0;
-}
-.co_scrollbar {
-    pointer-events: none;
-}
-.co_scrollbar-track {
-    pointer-events: auto;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding: 0 !important;
-    border: none !important;
-}
-.co_scrollbar-handle {
-    pointer-events: auto;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.co_scrollbar-handle-off,
-.co_scrollbar-track-off {
-    pointer-events: none;
-}
-.co_scrollbar.co_scrollbar-unusable,
-.co_scrollbar.co_scrollbar-unusable * {
-    pointer-events: none !important;
-}
-.co_scrollbar.co_scrollbar-unusable .co_scrollbar-handle {
-    opacity: 0 !important;
-}
-.co_scrollbar-horizontal.position-top {
-    top: 0;
-    left: 0;
-}
-.co_scrollbar-horizontal.position-bottom {
-    bottom: 0;
-    left: 0;
-}
-.co_scrollbar-vertical.position-left {
-    top: 0;
-    left: 0;
-}
-.co_scrollbar-vertical.position-right {
-    top: 0;
-    right: 0;
-}
-.co_scrollbar-auto-hidden,
-.co_wrapper + .co_scrollbar-corner,
-.co_host-resize-disabled.co_host-scrollbar-horizontal-hidden > .co_scrollbar-corner,
-.co_host-scrollbar-horizontal-hidden > .co_scrollbar-horizontal,
-.co_host-resize-disabled.co_host-scrollbar-vertical-hidden > .co_scrollbar-corner,
-.co_host-scrollbar-vertical-hidden > .co_scrollbar-vertical,
-.co_scrollbar-horizontal.co_scrollbar-auto-hidden + .co_scrollbar-vertical + .co_scrollbar-corner,
-.co_scrollbar-horizontal + .co_scrollbar-vertical.co_scrollbar-auto-hidden + .co_scrollbar-corner,
-.co_scrollbar-horizontal.co_scrollbar-auto-hidden + .co_scrollbar-vertical.co_scrollbar-auto-hidden + .co_scrollbar-corner {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-.co_scrollbar-corner-resize-both {
-    cursor: nwse-resize;
-}
-.co_scrollbar-corner-resize-horizontal {
-    cursor: ew-resize;
-}
-.co_scrollbar-corner-resize-vertical {
-    cursor: ns-resize;
-}
-.co_dragging .co_scrollbar-corner.co_scrollbar-corner-resize {
-    cursor: default;
-}
-.co_host-resize-disabled.co_host-scrollbar-horizontal-hidden > .co_scrollbar-vertical {
-    top: 0;
-    bottom: 0;
-}
-.co_host-resize-disabled.co_host-scrollbar-vertical-hidden > .co_scrollbar-horizontal{
-    right: 0;
-    left: 0;
-}
-.co_scrollbar:hover,
-.co_scrollbar-corner.co_scrollbar-corner-resize {
-    opacity: 1 !important;
-    visibility: visible !important;
-}
 .co_overlay-scroll {
-    overflow: hidden !important;
+  position: relative;
+  overflow: hidden!important;
+  width: 100%;
+  height: 100%;
 }
 
-.co_overlay-scroll > .co_scrollbar-horizontal {
-    left: 10px;
-    right: 10px;
-    height: 10px;
-}
-.co_overlay-scroll > .co_scrollbar-vertical {
-    top: 10px;
-    bottom: 10px;
-    width: 10px;
-}
-.co_overlay-scroll > .co_scrollbar-corner {
-    height: 10px;
-    width: 10px;
-}
-.co_overlay-scroll > .co_scrollbar-corner {
-    background-color: transparent;
-}
-.co_overlay-scroll > .co_scrollbar {
-    padding: 2px;
-    box-sizing: border-box;
-    background: transparent;
-}
-.co_overlay-scroll > .co_scrollbar.co_scrollbar-unusable {
-    background: transparent;
-}
-.co_overlay-scroll > .co_scrollbar > .co_scrollbar-track {
-    background: transparent;
-}
-.co_overlay-scroll > .co_scrollbar-horizontal > .co_scrollbar-track > .co_scrollbar-handle {
-    min-width: 30px;
-}
-.co_overlay-scroll > .co_scrollbar-vertical > .co_scrollbar-track > .co_scrollbar-handle {
-    min-height: 30px;
-}
-.co_overlay-scroll.co_host-transition > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle {
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-}
-.co_overlay-scroll > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle,
-.co_overlay-scroll > .co_scrollbar > .co_scrollbar-track {
-    border-radius: 10px;
+.co_scrollbar {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  z-index: 1;
+  border-radius: 3px;
 }
 
-.co_overlay-scroll > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle {
-    background: rgba(190, 190, 190, .8);
+.co_scrollbar._vertical {
+  width: 6px;
+  top: 2px;
 }
-.co_overlay-scroll > .co_scrollbar:hover > .co_scrollbar-track > .co_scrollbar-handle {
-    background: rgba(150, 150, 150, .8);
-}
-.co_overlay-scroll > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle.active {
-    background: rgba(170, 170, 170, .8);
+.co_scrollbar._vertical.left {
+  left: 2px;
 }
 
-.co_overlay-scroll.dark-mode > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle {
-    background: rgba(0, 0, 0, 0.4);
+.co_scrollbar._horizontal {
+  height: 6px;
+  left: 2px;
 }
-.co_overlay-scroll.dark-mode > .co_scrollbar:hover > .co_scrollbar-track > .co_scrollbar-handle {
-    background: rgba(0, 0, 0, .55);
-}
-.co_overlay-scroll.dark-mode > .co_scrollbar > .co_scrollbar-track > .co_scrollbar-handle.active {
-    background: rgba(0, 0, 0, .7);
+.co_scrollbar._horizontal.top {
+  top: 2px
 }
 
-.co_overlay-scroll > .co_scrollbar-horizontal .co_scrollbar-handle:before,
-.co_overlay-scroll > .co_scrollbar-vertical .co_scrollbar-handle:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: block;
+.co_scrollbar .thumb {
+  position: relative;
+  display: block;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  border-radius: inherit;
+  background-color: rgba(150,150,150,.5);
+  transform: translate3d(0,0,0);
 }
-.co_overlay-scroll.co_host-scrollbar-horizontal-hidden > .co_scrollbar-horizontal .co_scrollbar-handle:before,
-.co_overlay-scroll.co_host-scrollbar-vertical-hidden > .co_scrollbar-vertical .co_scrollbar-handle:before {
-    display: none;
+
+.co_scrollbar .thumb:hover,
+.co_scrollbar .thumb:active {
+  background-color: rgba(150,150,150,.6);
 }
-.co_overlay-scroll > .co_scrollbar-horizontal .co_scrollbar-handle:before {
-    top: -6px;
-    bottom: -2px;
+
+.co_scrollbar._vertical .thumb {
+  width: 100%;
 }
-.co_overlay-scroll > .co_scrollbar-vertical .co_scrollbar-handle:before {
-    left: -6px;
-    right: -2px;
+
+.co_scrollbar._horizontal .thumb {
+  height: 100%;
+}
+
+.co_overlay-scroll .co_overlay-viewport {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  transform: translate3d(0,0,0);
+  -webkit-overflow-scrolling: touch;
+}
+
+.co_overlay-scroll.dark-mode .co_scrollbar .thumb {
+  background-color: rgba(0,0,0,.5);
+}
+.co_overlay-scroll.dark-mode .co_scrollbar .thumb:hover,
+.co_overlay-scroll.dark-mode .co_scrollbar .thumb:active {
+  background-color: rgba(0,0,0,.7);
+}
+.co_overlay-scroll.scroll-hide .co_scrollbar,
+.co_overlay-scroll.vertical_disabled .co_scrollbar._vertical,
+.co_overlay-scroll.horizontal_disabled .co_scrollbar._horizontal{
+  display: none;
+}
+.co_overlay-scroll.vertical_disabled .co_overlay-viewport {
+  overflow-y: hidden;
+}
+.co_overlay-scroll.horizontal_disabled .co_overlay-viewport {
+  overflow-x: hidden;
+}
+.co_overlay-scroll.scroll-auto .co_scrollbar {
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+.co_overlay-scroll.scroll-auto:hover > .co_scrollbar,
+.co_overlay-scroll.scroll-auto:active > .co_scrollbar,
+.co_overlay-scroll.scroll-auto:focus > .co_scrollbar {
+  opacity: 1;
+  transition: opacity 340ms ease-out;
+}
+
+.co_resize-trigger {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
 }
