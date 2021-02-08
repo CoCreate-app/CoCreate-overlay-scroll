@@ -9,7 +9,7 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "6020801d3c260207bf49caba",
             key: "html",
             data:{
                 name: "Overlay Scroll Doc",
@@ -19,10 +19,10 @@ module.exports = {
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "6020801d3c260207bf49cab9",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "6020801d3c260207bf49caba",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
                 route: "/docs/overlay-scroll",
