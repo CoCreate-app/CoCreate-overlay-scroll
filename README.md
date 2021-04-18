@@ -9,7 +9,7 @@ A simple overlay-scroll component in vanilla javascript. Easily configured using
 
 ![CoCreate-overlay-scroll](https://cdn.cocreate.app/docs/CoCreate-overlay-scroll.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/overlay-scroll)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/overlay-scroll)
 
