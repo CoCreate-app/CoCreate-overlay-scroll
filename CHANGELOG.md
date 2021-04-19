@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.1...v1.0.2) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([d0540ed](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/d0540ed95d84c652193f929ce7c75c6e10553b40))
+* npm publish and cdn deployment ([77c13c5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/77c13c55f19021367a0ce0fad4a88fc87f638345))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
