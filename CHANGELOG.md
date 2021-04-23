@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.2...v1.0.3) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([ebb691a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/ebb691a82bd1d2f7887050d6fe9f6495f4d20c0b))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.1...v1.0.2) (2021-04-19)
 
 
