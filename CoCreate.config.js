@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6020801d3c260207bf49caba",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "overlay-scroll Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
