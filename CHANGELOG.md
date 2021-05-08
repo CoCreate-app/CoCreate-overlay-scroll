@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.4...v1.0.5) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([49fd93f](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/49fd93fdaed4e617a600d9cb851f4e00780c0cef))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
