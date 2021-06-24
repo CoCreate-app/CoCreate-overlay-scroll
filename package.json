@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/overlay-scroll",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple overlay-scroll component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "overlay-scroll",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
