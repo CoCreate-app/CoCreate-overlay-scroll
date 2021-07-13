@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.13...v1.0.14) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([9603dfb](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9603dfb8814a5e297eb310ce2a466da0274b8a97))
+* remove yarn.lock ([f5db933](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f5db933887bf9388df4fba9ce8c56a1642675878))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.12...v1.0.13) (2021-07-10)
 
 
