@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.16...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([48dce79](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/48dce7911c4e35ffb2cf9eb950d6a464dd82f771))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.15...v1.0.16) (2021-07-17)
 
 
