@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.0...v1.1.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([00beb39](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/00beb39875d5721176fb5021508f87ac7e41cb9e))
+* remove data- from fetch, pass and filter ([5f3d882](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/5f3d882fdbf542980cef4dfc579280f4ffaddbce))
+* update data-fullscreen to fullscreen ([01edb6e](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/01edb6e1988558a5a30627e766e29e3ea39c142a))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.0.16...v1.1.0) (2021-07-28)
 
 
