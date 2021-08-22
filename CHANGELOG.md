@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.4...v1.1.5) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([e875dc9](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/e875dc9c965baaabb8fb47d55886a55f9aac2530))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.3...v1.1.4) (2021-08-22)
 
 
