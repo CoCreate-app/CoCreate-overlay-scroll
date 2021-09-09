@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.10...v1.1.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([a740759](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/a7407592e5f82f5fb6a1b4ca2626e834376a7848))
+
 ## [1.1.10](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.9...v1.1.10) (2021-09-08)
 
 
