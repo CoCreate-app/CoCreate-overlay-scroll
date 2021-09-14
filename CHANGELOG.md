@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.16...v1.1.17) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([cecef7e](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/cecef7e75686719c76c9eb0dfa9789854369101a))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.15...v1.1.16) (2021-09-13)
 
 
