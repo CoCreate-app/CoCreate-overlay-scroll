@@ -1,3 +1,10 @@
+## [1.1.31](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.30...v1.1.31) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([e3d9866](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/e3d9866574b205eea2d129fb12f77d5b88201357))
+
 ## [1.1.30](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.29...v1.1.30) (2021-10-15)
 
 
