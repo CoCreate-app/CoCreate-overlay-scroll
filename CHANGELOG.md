@@ -1,3 +1,10 @@
+## [1.1.33](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.32...v1.1.33) (2021-10-29)
+
+
+### Bug Fixes
+
+* update dependencies ([9619316](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9619316957b42abc5748a9445640fc2b21196cc3))
+
 ## [1.1.32](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.31...v1.1.32) (2021-10-17)
 
 
