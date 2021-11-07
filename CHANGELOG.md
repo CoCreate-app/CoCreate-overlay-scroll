@@ -1,3 +1,10 @@
+## [1.1.38](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.37...v1.1.38) (2021-11-07)
+
+
+### Bug Fixes
+
+* add init() directly above export default to fix bug in firefox ([716a94a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/716a94ab69bf509172093886eb843569e7969413))
+
 ## [1.1.37](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.36...v1.1.37) (2021-11-06)
 
 
