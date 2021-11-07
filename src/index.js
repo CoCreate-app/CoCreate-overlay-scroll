@@ -400,7 +400,6 @@ var CoCreateOverlayScroll = (function() {
   return _base;
 })();
 
-window.onload = function(){
-  CoCreateOverlayScroll.init();
-}
+CoCreateOverlayScroll.init();
+
 export default CoCreateOverlayScroll;
