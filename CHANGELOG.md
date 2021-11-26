@@ -1,3 +1,10 @@
+## [1.1.47](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.46...v1.1.47) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([65ac0a2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/65ac0a21b245505098ceb16aa90387c764b855b6))
+
 ## [1.1.46](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.45...v1.1.46) (2021-11-26)
 
 
