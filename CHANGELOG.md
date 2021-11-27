@@ -1,3 +1,10 @@
+## [1.1.48](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.47...v1.1.48) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([bcac455](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/bcac4554be37629bba972ac917cae4a84ce8e6e5))
+
 ## [1.1.47](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.46...v1.1.47) (2021-11-26)
 
 
