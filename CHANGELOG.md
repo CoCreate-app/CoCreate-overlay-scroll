@@ -1,3 +1,10 @@
+## [1.1.53](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.52...v1.1.53) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([428f3ce](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/428f3ced7fcf8cd99dfdf854a566e67d870733ea))
+
 ## [1.1.52](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.51...v1.1.52) (2021-12-15)
 
 
