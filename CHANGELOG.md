@@ -1,3 +1,10 @@
+## [1.1.55](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.54...v1.1.55) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([9cfc299](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9cfc2995d7db36e60f8541f6a128f2a5fbc16237))
+
 ## [1.1.54](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.53...v1.1.54) (2022-02-01)
 
 
