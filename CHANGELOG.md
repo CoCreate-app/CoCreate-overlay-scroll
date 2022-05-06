@@ -1,3 +1,10 @@
+## [1.1.60](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.59...v1.1.60) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([667d23a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/667d23a57dc50ba49216ceca8542916bf75b7c39))
+
 ## [1.1.59](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.58...v1.1.59) (2022-02-24)
 
 
