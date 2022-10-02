@@ -1,3 +1,10 @@
+## [1.1.72](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.71...v1.1.72) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([175d9a8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/175d9a81812f5e72aff55accef59789fcf45fc06))
+
 ## [1.1.71](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.70...v1.1.71) (2022-10-01)
 
 
