@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "6020801d3c260207bf49caba",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/overlay-scroll/index.html",
                 "domains": [
