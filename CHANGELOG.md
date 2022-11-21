@@ -1,3 +1,10 @@
+## [1.1.76](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.75...v1.1.76) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([3945476](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/3945476903a41fc33f7fd2d0055907b48bb972bb))
+
 ## [1.1.75](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.74...v1.1.75) (2022-11-21)
 
 
