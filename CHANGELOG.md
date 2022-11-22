@@ -4,6 +4,14 @@
 ### Bug Fixes
 
 * apply src: {{source}} to CoCreate.config ([c17b2a8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/c17b2a876d598ab448329d1cc4feb3ca59418782))
+* workflow docs ([cb5a16b](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/cb5a16be76ab22f8bfcdd902e67878a109381ec9))
+
+## [1.1.78](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.77...v1.1.78) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([c17b2a8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/c17b2a876d598ab448329d1cc4feb3ca59418782))
 
 ## [1.1.77](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.76...v1.1.77) (2022-11-21)
 
