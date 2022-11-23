@@ -212,7 +212,7 @@ var CoCreateOverlayScroll = (function() {
             return -1;
         }
         function isSubstr(str, sub) {
-            if(str.indexOf(sub) > -1) return true;
+            if (str.indexOf(sub) > -1) return true;
             return false;
         }
         function isFunction(obj) {
@@ -220,7 +220,7 @@ var CoCreateOverlayScroll = (function() {
         };
         function isEmptyObject(obj) {
             for (var name in obj) 
-                if(obj.hasOwnProperty(name)) return false;
+                if (obj.hasOwnProperty(name)) return false;
             return true;
         };
         function isPlainObject(obj) {
@@ -1050,7 +1050,7 @@ var CoCreateOverlayScroll = (function() {
         function initOptions() {
             var options = {};
             var scrollTypes = el.dataset.overlayScroll_type;
-            if(typeof scrollTypes !== 'undefined'){
+            if (typeof scrollTypes !== 'undefined'){
                 scrollTypes = scrollTypes.toLowerCase();
                 options.overflowBehavior = {
                     x: Utils.isSubstr(scrollTypes, 'scrollx') ? "scroll" : "hidden",
@@ -1059,7 +1059,7 @@ var CoCreateOverlayScroll = (function() {
             }
 
             var scrollPos = el.dataset.overlayScroll_pos;
-            if(typeof scrollPos !== 'undefined'){
+            if (typeof scrollPos !== 'undefined'){
                 scrollPos = scrollPos.toLowerCase();
                 options.scrollPos = { 
                     x: Utils.isSubstr(scrollPos, 'top') ? 'top' : 'bottom',
@@ -1068,7 +1068,7 @@ var CoCreateOverlayScroll = (function() {
             }
 
             var scrollVisible = el.dataset.overlayScroll_visible;
-            if(typeof scrollVisible !== 'undefined'){
+            if (typeof scrollVisible !== 'undefined'){
                 scrollVisible = scrollVisible.toLowerCase();
                 options.scrollbars = {
                     visibility: scrollVisible == 'hide' ? 'hidden' : 'visible',
@@ -1105,7 +1105,7 @@ var CoCreateOverlayScroll = (function() {
             }
             else {
                 for (; i < events.length; i++) {
-                    if(useNative) {
+                    if (useNative) {
                         element[0][method](events[i], listener, nativeParam);
                     }
                     else {
@@ -2124,12 +2124,12 @@ var CoCreateOverlayScroll = (function() {
         },
         checkExistObj: function(el) {
             for(var i = 0; i < this._objects.length; i++){
-                if(el.isSameNode(this._objects[i].el)) return true;
+                if (el.isSameNode(this._objects[i].el)) return true;
             }
             return false;
         },
         createObj: function(el) {
-            if(this.checkExistObj(el)) return;
+            if (this.checkExistObj(el)) return;
             this._objects.push(new scrollInstance(el));
         }
     };

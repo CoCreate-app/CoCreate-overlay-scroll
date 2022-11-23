@@ -28,7 +28,7 @@ var CoCreateOverlayScroll = (function() {
   }
 
   function isSubstr (str, sub) {
-    if(str.indexOf(sub) > -1) return true;
+    if (str.indexOf(sub) > -1) return true;
     return false;
   }
 
@@ -52,9 +52,9 @@ var CoCreateOverlayScroll = (function() {
 
   function innerDomElement ( target, selector, isInnerWrap = false) {
     var innerEle = target.querySelector(selector);
-    if(!innerEle) {
+    if (!innerEle) {
       innerEle = document.createElement('div');
-      if(isInnerWrap){
+      if (isInnerWrap){
         while(target.childNodes.length > 0) {
           innerEle.appendChild(target.childNodes[0]);
         }
@@ -97,14 +97,14 @@ var CoCreateOverlayScroll = (function() {
 
     _instance.initDomOptions = function() {
       var scrollTypes = this.element.dataset.overlayScroll_type;
-      if(typeof scrollTypes !== 'undefined'){
+      if (typeof scrollTypes !== 'undefined'){
           scrollTypes = scrollTypes.toLowerCase();
           this.options.hScroll.behavior = isSubstr(scrollTypes, 'scrollx') ? "scroll" : "_disabled";
           this.options.vScroll.behavior = isSubstr(scrollTypes, 'scrolly') ? "scroll" : "_disabled";
       }
 
       var scrollPos = this.element.dataset.overlayScroll_pos;
-      if(typeof scrollPos !== 'undefined'){
+      if (typeof scrollPos !== 'undefined'){
           scrollPos = scrollPos.toLowerCase();
           this.options.hScroll.pos = isSubstr(scrollPos, 'top') ? 'top' : 'bottom';
           this.options.vScroll.pos = isSubstr(scrollPos, 'left') ? 'left' : 'right';
@@ -112,7 +112,7 @@ var CoCreateOverlayScroll = (function() {
 
       var scrollVisible = this.element.dataset.overlayScroll_visible;
       var visibles = ['show', 'hide', 'auto'];
-      if(typeof scrollVisible !== 'undefined'){
+      if (typeof scrollVisible !== 'undefined'){
           scrollVisible = scrollVisible.toLowerCase();
           this.options.visible = visibles.indexOf(scrollVisible) > -1 ? scrollVisible : 'show';
       }
@@ -134,9 +134,9 @@ var CoCreateOverlayScroll = (function() {
         }
       } else {
         var targetClassNames = []
-        if(this.options.visible !== 'show') targetClassNames.push('scroll-' + this.options.visible);
-        if(this.options.hScroll.behavior !== 'scroll') targetClassNames.push('horizontal' + this.options.hScroll.behavior);
-        if(this.options.vScroll.behavior !== 'scroll') targetClassNames.push('vertical' + this.options.vScroll.behavior);
+        if (this.options.visible !== 'show') targetClassNames.push('scroll-' + this.options.visible);
+        if (this.options.hScroll.behavior !== 'scroll') targetClassNames.push('horizontal' + this.options.hScroll.behavior);
+        if (this.options.vScroll.behavior !== 'scroll') targetClassNames.push('vertical' + this.options.vScroll.behavior);
         addClass(this.element, targetClassNames);
 
         this._document = document;
@@ -290,7 +290,7 @@ var CoCreateOverlayScroll = (function() {
       this._thumbHorizontalElement.style.webkitTransform = 'translate3d(' + x + 'px, 0, 0)';
       this._thumbHorizontalElement.style.transform = 'translate3d(' + x + 'px, 0, 0)';
       
-      if(this.options.vScroll.behavior == 'scroll'){
+      if (this.options.vScroll.behavior == 'scroll'){
         this._thumbVerticalElement.style.msTransform = 'translateY(' + y + 'px)';
         this._thumbVerticalElement.style.webkitTransform = 'translate3d(0, ' + y + 'px, 0)';
         this._thumbVerticalElement.style.transform = 'translate3d(0, ' + y + 'px, 0)';
@@ -305,7 +305,7 @@ var CoCreateOverlayScroll = (function() {
     };
   
     _instance._clickVerticalTrackHandler = function(e) {
-      if(e.target !== e.currentTarget) {
+      if (e.target !== e.currentTarget) {
         return;
       }
       var offset = e.offsetY - this._naturalThumbSizeY * .5
@@ -315,7 +315,7 @@ var CoCreateOverlayScroll = (function() {
     };
   
     _instance._clickHorizontalTrackHandler = function(e) {
-      if(e.target !== e.currentTarget) {
+      if (e.target !== e.currentTarget) {
         return;
       }
       var offset = e.offsetX - this._naturalThumbSizeX * .5
@@ -387,12 +387,12 @@ var CoCreateOverlayScroll = (function() {
     },
     checkExistObj: function(el) {
         for(var i = 0; i < this._objects.length; i++){
-            if(el.isSameNode(this._objects[i].el)) return true;
+            if (el.isSameNode(this._objects[i].el)) return true;
         }
         return false;
     },
     createObj: function(el) {
-        if(this.checkExistObj(el)) return;
+        if (this.checkExistObj(el)) return;
         this._objects.push(new ScrollInstance(el));
     }
   };
