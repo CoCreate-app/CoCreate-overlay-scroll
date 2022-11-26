@@ -1,3 +1,11 @@
+## [1.1.82](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.81...v1.1.82) (2022-11-26)
+
+
+### Bug Fixes
+
+* bump dependencies ([3a0d03a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/3a0d03adbfc9efab6716b84545790447367ed0b7))
+* toggle-order renamed to filter-sort-toggle ([92b9547](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/92b9547a11929e5badc348f8b8442fe15e1cc9d2))
+
 ## [1.1.81](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.80...v1.1.81) (2022-11-25)
 
 
