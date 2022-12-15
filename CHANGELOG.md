@@ -1,3 +1,10 @@
+## [1.1.95](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.94...v1.1.95) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([16da946](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/16da9463c74724ba884869e1c57c4bd4690d0cdd))
+
 ## [1.1.94](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.93...v1.1.94) (2022-12-13)
 
 
