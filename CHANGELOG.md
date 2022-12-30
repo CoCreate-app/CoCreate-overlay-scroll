@@ -1,3 +1,10 @@
+## [1.1.104](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.103...v1.1.104) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([8b82ffa](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/8b82ffac33ccab027e3b7fe42667d440c2557a90))
+
 ## [1.1.103](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.102...v1.1.103) (2022-12-29)
 
 
