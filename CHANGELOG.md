@@ -1,3 +1,10 @@
+## [1.1.106](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.105...v1.1.106) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([b7e04af](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/b7e04afe35a6f9ac0f34f5cd18bdd9ade9a5dc3e))
+
 ## [1.1.105](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.104...v1.1.105) (2022-12-31)
 
 
