@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.116...v1.2.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([8133cc1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/8133cc1586d76458d7fd5ad51edfedc92f0ed8fb))
+
 ## [1.1.116](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.1.115...v1.1.116) (2023-02-01)
 
 
