@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.2.3...v1.2.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([3d58183](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/3d58183fc15c366aa4b2c01292cdd611a4a837ef))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.2.2...v1.2.3) (2023-03-30)
 
 
