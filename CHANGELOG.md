@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.2.6...v1.3.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([9d67f1c](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9d67f1c8e1bfa9c57f07c8e282e868f7c3864be8))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.2.5...v1.2.6) (2023-04-11)
 
 
