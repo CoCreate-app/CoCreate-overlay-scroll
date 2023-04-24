@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.0...v1.3.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([f8acc4c](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f8acc4cbad11b87544cfb4505a3fb8dadc494b71))
+
 # [1.3.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.2.6...v1.3.0) (2023-04-24)
 
 
