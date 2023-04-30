@@ -1,3 +1,12 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.3...v1.3.4) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([f22bef7](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f22bef705d3de40021f288fc9b822624cf0e2cd6))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([7e036a5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/7e036a5552c8bb4bc05cc8bd18ae4d2f960521eb))
+* removed toogle fullscreen icons. now using css content ([c3c84d5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/c3c84d5bbefb8f81bb39d0db81d02cd4767787b1))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.2...v1.3.3) (2023-04-24)
 
 
