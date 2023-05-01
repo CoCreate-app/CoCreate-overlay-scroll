@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.5...v1.3.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([236a4bb](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/236a4bb22811bbf724733e5ac86612843623f35d))
+
 ## [1.3.5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.4...v1.3.5) (2023-05-01)
 
 
