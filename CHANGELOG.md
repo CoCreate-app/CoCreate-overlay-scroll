@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.4...v1.3.5) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([9b79432](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9b79432953d842593c8e23722dbdce3e76402209))
+
 ## [1.3.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.3...v1.3.4) (2023-04-30)
 
 
