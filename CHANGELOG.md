@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.7...v1.3.8) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([6e35ebf](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/6e35ebfc2a195cb09f3c4e9275158df8c2e7270b))
+
 ## [1.3.7](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.6...v1.3.7) (2023-05-06)
 
 
