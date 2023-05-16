@@ -1,92 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Overlay Scroll | CoCreateJS</title>
-    
-    <!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-    <!-- CoCreate CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/overlay-scroll/latest/CoCreate-overlay-scroll.min.css" type="text/css" />
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-  <body class="co_overlay-scroll" style="height:2000px;">
-    
-      <div id="type_example" style="display:flex;flex-wrap:wrap">
-        <!-- Example:  default scrolling -->
-        <div style="margin: 10px">
-          <h3>Default</h3>
-          <div class="co_overlay-scroll" style="width:300px;height:300px">
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
+    <head>
+        <title>Overlay Scroll | CoCreateJS</title>
+
+        <!-- CoCreate Favicon -->
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <!-- CoCreate CSS CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.cocreate.app/overlay-scroll/latest/CoCreate-overlay-scroll.min.css"
+            type="text/css" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body class="co_overlay-scroll" style="height: 2000px">
+        <div id="type_example" style="display: flex; flex-wrap: wrap">
+            <!-- Example:  default scrolling -->
+            <div style="margin: 10px">
+                <h3>Default</h3>
+                <div
+                    class="co_overlay-scroll"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  X-direction scrolling -->
+            <div style="margin: 10px">
+                <h3>X-direction ScrollBar</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_type="scrollX"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  Y-direction scrolling -->
+            <div style="margin: 10px">
+                <h3>Y-direction ScrollBar</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_type="scrollY"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
         </div>
-        <!-- Example:  X-direction scrolling -->
-        <div style="margin: 10px">
-          <h3>X-direction ScrollBar</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_type="scrollX" style="width:300px;height:300px" >
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
+
+        <div id="position_example" style="display: flex; flex-wrap: wrap">
+            <!-- Example:  default scrolling -->
+            <div style="margin: 10px">
+                <h3>Bottom, Left</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_pos="left"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  X-direction scrolling -->
+            <div style="margin: 10px">
+                <h3>Top, Right</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_pos="top"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  Y-direction scrolling -->
+            <div style="margin: 10px">
+                <h3>Top, Left</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_pos="top;left"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
         </div>
-        <!-- Example:  Y-direction scrolling -->
-        <div style="margin: 10px">
-          <h3>Y-direction ScrollBar</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_type="scrollY" style="width:300px;height:300px">
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
+
+        <div id="visible_example" style="display: flex; flex-wrap: wrap">
+            <!-- Example:  default scroller -->
+            <div style="margin: 10px">
+                <h3>Dark Mode</h3>
+                <div
+                    class="co_overlay-scroll dark-mode"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  Top and Left scroller -->
+            <div style="margin: 10px">
+                <h3>Hidden ScrollBar</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_visible="hide"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
+            <!-- Example:  Top ScrollBar -->
+            <div style="margin: 10px">
+                <h3>Auto Hidden ScrollBar</h3>
+                <div
+                    class="co_overlay-scroll"
+                    data-overlay-scroll_visible="auto"
+                    style="width: 300px; height: 300px">
+                    <img
+                        src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg" />
+                </div>
+            </div>
         </div>
-      </div>  
-      
-      <div id="position_example" style="display:flex;flex-wrap:wrap">
-        <!-- Example:  default scrolling -->
-        <div style="margin: 10px">
-          <h3>Bottom, Left</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_pos="left" style="width:300px;height:300px" >
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
-        </div>
-        <!-- Example:  X-direction scrolling -->
-        <div style="margin: 10px">
-          <h3>Top, Right</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_pos="top" style="width:300px;height:300px" >
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
-        </div>
-        <!-- Example:  Y-direction scrolling -->
-        <div style="margin: 10px">
-          <h3>Top, Left</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_pos="top;left" style="width:300px;height:300px">
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
-        </div>
-      </div>  
-        
-  
-      
-      <div id="visible_example" style="display:flex;flex-wrap:wrap">
-        <!-- Example:  default scroller -->
-        <div style="margin: 10px">
-          <h3>Dark Mode</h3>
-          <div class="co_overlay-scroll dark-mode" style="width:300px;height:300px" >
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
-        </div>
-        <!-- Example:  Top and Left scroller -->
-        <div style="margin: 10px">
-          <h3>Hidden ScrollBar</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_visible="hide" style="width:300px;height:300px" >
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>
-        </div>
-        <!-- Example:  Top ScrollBar -->
-        <div style="margin: 10px">
-          <h3>Auto Hidden ScrollBar</h3>
-          <div class="co_overlay-scroll" data-overlay-scroll_visible="auto" style="width:300px;height:300px">
-            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(44).jpg"></img>
-          </div>  
-        </div>
-      </div> 
-      
-	    
-	    <!--<script src="../dist/CoCreate-overlay-scroll.js"></script>-->
-	    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
-  </body>
+
+        <!--<script src="../dist/CoCreate-overlay-scroll.js"></script>-->
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+    </body>
 </html>
