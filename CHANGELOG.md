@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.8...v1.3.9) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([435f740](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/435f740eab18ff2887e5354cfa5223da54941a57))
+
 ## [1.3.8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.7...v1.3.8) (2023-05-10)
 
 
