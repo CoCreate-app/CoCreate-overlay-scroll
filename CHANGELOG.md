@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.10...v1.3.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([7123d07](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/7123d07ba93e61a94da87c1dccf3d1d521c4ffa1))
+
 ## [1.3.10](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.9...v1.3.10) (2023-05-21)
 
 
