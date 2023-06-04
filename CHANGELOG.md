@@ -1,3 +1,11 @@
+## [1.3.13](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.12...v1.3.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([2171d8a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/2171d8a874d4ea3065d3d1572c4a8d500455e78e))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([34b5d7f](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/34b5d7f53e4378347caecf8493f79bc0b85211c9))
+
 ## [1.3.12](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.11...v1.3.12) (2023-06-04)
 
 
