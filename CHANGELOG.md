@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.13...v1.3.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([54b94a6](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/54b94a6aa7ec9b07da2a47eb4e22fadc65d4da4b))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.12...v1.3.13) (2023-06-04)
 
 
