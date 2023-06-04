@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.11...v1.3.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([f8e72a8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f8e72a89554d36e344f69a8b85c6969b5e53c26e))
+
 ## [1.3.11](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.10...v1.3.11) (2023-06-02)
 
 
