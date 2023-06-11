@@ -1,3 +1,10 @@
+## [1.3.24](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.23...v1.3.24) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([de2e1dd](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/de2e1dd365abca6bae689b809674d0d0f2167922))
+
 ## [1.3.23](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.22...v1.3.23) (2023-06-11)
 
 
