@@ -1,3 +1,10 @@
+## [1.3.19](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.18...v1.3.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([3bf2999](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/3bf2999e300c559808c9044ee2e37e3c38c94c47))
+
 ## [1.3.18](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.17...v1.3.18) (2023-06-11)
 
 
