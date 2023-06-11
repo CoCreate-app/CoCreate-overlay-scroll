@@ -1,3 +1,10 @@
+## [1.3.16](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.15...v1.3.16) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([53e9113](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/53e9113e9aa23e061b181c307f977c727b21d797))
+
 ## [1.3.15](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.14...v1.3.15) (2023-06-10)
 
 
