@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.27...v1.4.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([aa813d7](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/aa813d7c574cbf72ab7e41ddbff4e13bdf6ab380))
+* replace -target -selector ([9af60d3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/9af60d305cba344eff5c7b309b176451f755607a))
+* webpack.config and package.json make use of mode=production instead of process.env ([e424a29](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/e424a2982aba1af90bba4e020b1e0fb50efe04e7))
+
+
+### Features
+
+* name attribute and variable renamed to key ([36bffa1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/36bffa1a15c938a24b1fa1959ca93049dc292e06))
+
 ## [1.3.27](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.3.26...v1.3.27) (2023-06-14)
 
 
