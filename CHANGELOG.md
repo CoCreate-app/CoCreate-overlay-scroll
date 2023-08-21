@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.5.0...v1.5.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([f4f48c4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f4f48c48708a7fa4775ad1b2cf4f5b218774c943))
+* replace cdn with /dist ([1d52862](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/1d528621d37c9d1d0ff87e5882138236cbb948a1))
+* update file uploader ([0bf2e18](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/0bf2e18061da1f324a9efb2ee17f60d7a0f18fa6))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.4.0...v1.5.0) (2023-08-17)
 
 
