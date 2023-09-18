@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.1...v1.6.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([d27bd0f](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/d27bd0ff55ec2975f0da4a6a9fc277bff936d9c6))
+* Update CoCreate depndencies to latest versions ([f41c360](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/f41c360941160a7b455b09f623915ff2503b8712))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.0...v1.6.1) (2023-08-21)
 
 
