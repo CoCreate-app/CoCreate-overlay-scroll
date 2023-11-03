@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.2...v1.6.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([bf0e0e4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/bf0e0e447b68be32c139b2a8b10eaf4e5e42971e))
+
 ## [1.6.2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.1...v1.6.2) (2023-09-18)
 
 
