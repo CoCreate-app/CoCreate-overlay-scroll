@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/overlay-scroll/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "overlay-scroll",
                 "content-type": "{{content-type}}",
