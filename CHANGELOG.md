@@ -1,3 +1,11 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.3...v1.6.4) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([47365c8](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/47365c8558acb545d2535b7c4d186893aa7e272d))
+* update host ([ed1917d](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/ed1917d6feb19190dae0b65f207ad30f466e31f6))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.2...v1.6.3) (2023-11-03)
 
 
