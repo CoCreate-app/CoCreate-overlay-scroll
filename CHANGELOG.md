@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.7.0...v1.8.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([5669aad](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/5669aadf6187e63b66e8a435d204fa3a93325cb8))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([3fcea7a](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/3fcea7a0758a0d139f2b81acae3538fa78ff171b))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.6.5...v1.7.0) (2023-11-19)
 
 
