@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/overlay-scroll",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "A simple overlay-scroll component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "overlay-scroll",
