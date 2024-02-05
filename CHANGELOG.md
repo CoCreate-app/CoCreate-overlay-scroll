@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.0...v1.9.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([d2e6c51](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/d2e6c512a3395a6c5f40c6228c46c19dd4a156eb))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.8.0...v1.9.0) (2023-11-25)
 
 
