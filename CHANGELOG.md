@@ -1,3 +1,11 @@
+## [1.9.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.2...v1.9.3) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([446f4a6](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/446f4a6badba5a17865dc8aeb66824b70747d533))
+* svg icon class ([1cbdf3c](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/1cbdf3c486d97cc9f1863bcd4e5849afec605748))
+
 ## [1.9.2](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.1...v1.9.2) (2024-04-29)
 
 
