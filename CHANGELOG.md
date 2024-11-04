@@ -1,3 +1,16 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.3...v1.10.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([b1fa7e1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/b1fa7e1ceb8bc1cb660d996243c464777191bd3e))
+
+
+### Features
+
+* add prettier.config.js and format files ([2127c18](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/2127c18b918b86acb46c594b1c47292221df40d4))
+* add prettier.config.js and format files ([842afb0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/842afb070240e3b811b8b80327472ecf5c8ef09c))
+
 ## [1.9.3](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.2...v1.9.3) (2024-06-12)
 
 
