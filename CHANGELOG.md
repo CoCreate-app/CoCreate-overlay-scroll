@@ -1,3 +1,13 @@
+## [1.10.1](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.10.0...v1.10.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([07dfe8d](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/07dfe8d8479904f9112600989d32ca52cb06f3b4))
+* update query attributes ([e48ff8f](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/e48ff8fed83b0d99d6ac581d2a4fa544570f5f11))
+* updated cocreate modules versions ([c7f7b03](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/c7f7b039fa5993fabc5a8671acfc7e7fd24bbd97))
+* webpack.config and devdependencies ([01c0c5c](https://github.com/CoCreate-app/CoCreate-overlay-scroll/commit/01c0c5ccdef7eecb3a50158799f6beca2d737fe3))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-overlay-scroll/compare/v1.9.3...v1.10.0) (2024-11-04)
 
 
